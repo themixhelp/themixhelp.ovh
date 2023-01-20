@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+	import { randomHighlightColor } from '@/utlis/randomHighlightColor.js'
+
+	randomHighlightColor.chooseThemeColor()
+</script>
 
 <template>
 	<section class="app-wrapper">

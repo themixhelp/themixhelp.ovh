@@ -2,8 +2,6 @@
 	import Navbar from '@/components/Navbar.vue'
 	import { randomHighlightColor } from '@/utlis/randomHighlightColor.js'
 
-	randomHighlightColor.chooseThemeColor()
-
 	const THEME_COLOR = randomHighlightColor.getThemeColor()
 </script>
 
