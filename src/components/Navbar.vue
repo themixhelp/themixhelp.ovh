@@ -2,21 +2,19 @@
 
 <template>
 	<section class="navbar-wrapper">
-
-        <span class="navbar-item">about-me</span>
-        <span class="navbar-item">contact</span>
-
-    </section>
+		<router-link class="navbar-item" to="/about-me">about-me</router-link>
+		<router-link class="navbar-item" to="/contact">contact</router-link>
+	</section>
 </template>
 
 <style lang="scss" scoped>
 	.navbar-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
-        .navbar-item {
-            margin: 0 .5em;
-        }
+		.navbar-item {
+			margin: 0 0.5em;
+		}
 	}
 </style>
