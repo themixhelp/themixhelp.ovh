@@ -1,0 +1,22 @@
+@use '@/styles/variables.scss' as *;
+
+// prettier-ignore
+
+*, *::before, *::after {
+	box-sizing: border-box;
+
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: $dark;
+	background: $light;
+
+	font-size: $font-size;
+	font-family: 'Poppins', sans-serif;
+}
+
+.highlight {
+	color: $green;
+}
