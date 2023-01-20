@@ -1,4 +1,5 @@
 <script setup>
+	import Navbar from '@/components/Navbar.vue'
 	import { randomHighlightColor } from '@/utlis/randomHighlightColor.js'
 
 	randomHighlightColor.chooseThemeColor()
@@ -9,6 +10,8 @@
 <template>
 	<section class="app-wrapper">
 		<h1>themixhelp<span class="highlight">.</span></h1>
+
+        <Navbar />
 	</section>
 </template>
 
@@ -20,10 +23,13 @@
 		height: 100vh;
 
 		display: flex;
+        flex-direction: column;
 		justify-content: center;
 		align-items: center;
 
 		h1 {
+            padding-bottom: .25em;
+
 			font-size: clamp(2rem, 10vw, 5rem);
 			font-weight: 700;
 
