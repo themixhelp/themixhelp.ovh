@@ -1,7 +1,9 @@
 <script setup>
 	import { randomHighlightColor } from '@/utlis/randomHighlightColor.js'
+	import { appearanceHandler } from '@/handlers/appearanceHandler.js'
 
 	randomHighlightColor.chooseThemeColor()
+	appearanceHandler.init()
 </script>
 
 <template>
