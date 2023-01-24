@@ -28,7 +28,7 @@
 		h1 {
 			padding-bottom: 0.25em;
 
-			font-size: clamp(2rem, 10vw, 5rem);
+			font-size: 2.5em;
 			font-weight: 700;
 
 			text-align: center;
