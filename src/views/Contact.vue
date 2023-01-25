@@ -7,7 +7,5 @@
 </template>
 
 <style lang="scss" scoped>
-	.contact-wrapper {
-		padding: 1em;
-	}
+	@use '@/styles/sections.scss';
 </style>
