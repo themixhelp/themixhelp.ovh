@@ -9,7 +9,11 @@ a {
 	color: $light;
 	background: $dark;
 }
+.lightmode {
+	color: $dark;
+	background: $light;
+}
 
-.darkmode-smooth {
+.smooth {
 	transition: color 300ms, background 300ms;
 }

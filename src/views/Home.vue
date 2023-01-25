@@ -1,5 +1,6 @@
 <script setup>
 	import Navbar from '@/components/Navbar.vue'
+	import AppearanceSwitcher from '@/components/AppearanceSwitcher.vue'
 	import { randomHighlightColor } from '@/utlis/randomHighlightColor.js'
 
 	const THEME_COLOR = randomHighlightColor.getThemeColor()
@@ -10,6 +11,7 @@
 		<h1>themixhelp<span class="highlight">.</span></h1>
 
 		<Navbar />
+		<AppearanceSwitcher />
 	</section>
 </template>
 
