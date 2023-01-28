@@ -6,5 +6,9 @@
 .about-me-wrapper, .contact-wrapper {
 	min-height: 100vh;
 
-	padding: 1em;
+	padding: $initial-document-spacing;
+
+	h1 {
+		margin-bottom: 1em;
+	}
 }

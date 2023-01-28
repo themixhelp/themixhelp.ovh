@@ -26,7 +26,7 @@
 			bottom: 0;
 			right: 0;
 
-			margin: 2em;
+			margin: $initial-document-spacing;
 
 			opacity: 0.7;
 			border-radius: 3rem;
