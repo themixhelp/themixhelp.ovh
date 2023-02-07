@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+    import ReturnButton from '@/components/ReturnButton.vue'
+</script>
 
 <template>
 	<section class="about-me-wrapper">
@@ -13,6 +15,8 @@
 			<p>do you want to contact me? write to <strong>themixhelp@outlook.com</strong>.</p>
 			<p>prefer another way? you can do it via discord: <strong>themixhelp#3576</strong>!</p>
 		</article>
+
+        <ReturnButton />
 	</section>
 </template>
 
