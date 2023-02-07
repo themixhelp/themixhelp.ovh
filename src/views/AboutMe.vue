@@ -1,5 +1,5 @@
 <script setup>
-    import ReturnButton from '@/components/ReturnButton.vue'
+	import ReturnButton from '@/components/ReturnButton.vue'
 </script>
 
 <template>
@@ -16,14 +16,10 @@
 			<p>prefer another way? you can do it via discord: <strong>themixhelp#3576</strong>!</p>
 		</article>
 
-        <ReturnButton />
+		<ReturnButton />
 	</section>
 </template>
 
 <style lang="scss" scoped>
 	@use '@/styles/sections.scss';
-
-	article {
-		margin-bottom: 0.75em;
-	}
 </style>

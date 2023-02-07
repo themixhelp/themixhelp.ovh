@@ -3,12 +3,20 @@
 
 // prettier-ignore
 
-.about-me-wrapper, .contact-wrapper {
+.about-me-wrapper, .experience-wrapper {
 	min-height: 100vh;
 
 	padding: $initial-document-spacing;
 
 	h1 {
 		margin-bottom: .75em;
+	}
+
+	p {
+		margin-bottom: .25em;
+	}
+
+	article {
+		margin-bottom: 0.75em;
 	}
 }

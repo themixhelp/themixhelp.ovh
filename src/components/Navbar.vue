@@ -7,7 +7,7 @@
 <template>
 	<section class="navbar-wrapper">
 		<router-link class="navbar-item" to="/about-me">about-me</router-link>
-		<router-link class="navbar-item" to="/contact">contact</router-link>
+		<router-link class="navbar-item" to="/experience">experience</router-link>
 	</section>
 </template>
 

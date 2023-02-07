@@ -2,26 +2,26 @@
 
 <template>
 	<section class="return-button-wrapper">
-        <router-link to="/">return</router-link>
-    </section>
+		<router-link to="/">return</router-link>
+	</section>
 </template>
 
 <style lang="scss" scoped>
-    .return-button-wrapper {
-        position: absolute;
-        right: 0;
-        bottom: 0;
+	.return-button-wrapper {
+		position: absolute;
+		right: 0;
+		bottom: 0;
 
-        padding: 1.25em 1.75em;
+		padding: 1.25em 1.75em;
 
-        opacity: 0.7;
+		opacity: 0.7;
 
-        transition: opacity 300ms;
+		transition: opacity 300ms;
 
-        cursor: pointer;
+		cursor: pointer;
 
-        &:hover {
-            opacity: 1;
-        }
-    }
+		&:hover {
+			opacity: 1;
+		}
+	}
 </style>
