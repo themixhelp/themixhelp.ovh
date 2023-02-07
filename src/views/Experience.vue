@@ -15,7 +15,7 @@
 		</article>
 
 		<article>
-			<p>do you want to see my <strong>projects</strong>? check out my <a href="https://github.com/themixhelp">github</a>!</p>
+			<p>do you want to see my best <strong>projects</strong>? check out my pinned repositories on <a href="https://github.com/themixhelp">github</a>!</p>
 		</article>
 
 		<ReturnButton />
