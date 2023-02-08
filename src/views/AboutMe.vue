@@ -15,6 +15,12 @@
 		</article>
 
 		<article>
+			<p>
+				<s>additionally, i'm apple fanboy</s>
+			</p>
+		</article>
+
+		<article>
 			<p>do you want to contact me? write to <strong>themixhelp@outlook.com</strong>.</p>
 			<p>prefer another way? you can do it via discord: <strong>themixhelp#3576</strong>!</p>
 		</article>
