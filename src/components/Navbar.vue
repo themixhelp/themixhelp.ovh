@@ -17,7 +17,7 @@
 		justify-content: center;
 		align-items: center;
 
-		font-size: 1.1em;
+		font-size: 1em;
 
 		.navbar-item {
 			position: relative;

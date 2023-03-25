@@ -10,6 +10,7 @@
 <template>
 	<section class="home-wrapper">
 		<h1>themixhelp<span class="highlight">.</span></h1>
+        <h2><span class="highlight">{</span> frontend developer <span class="highlight">}</span></h2>
 
 		<Navbar />
 		<AppearanceSwitcher />
@@ -37,8 +38,20 @@
 			text-align: center;
 		}
 
+        h2 {
+            padding-bottom: 1.5em;
+
+            font-family: 'Ubuntu Mono', monospace;
+            font-size: 0.75em;
+            font-weight: 400;
+
+            text-align: center;
+        }
+
 		.highlight {
 			color: v-bind(THEME_COLOR);
+
+            font-weight: 700;
 		}
 	}
 </style>
